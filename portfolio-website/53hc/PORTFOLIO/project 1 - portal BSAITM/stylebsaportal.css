@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://anangpuria.com/wp-content/uploads/2018/05/bsaei-admin-2.jpg);
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+div{
+    position: fixed;
+    background-color: rgba(150, 141, 141, 0.527);
+    height: 350px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    top: 20vh;
+    left: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(196, 186, 186, 0.815), 0 6px 20px 0 rgba(255, 255, 255, 0.527);
+}
+header{
+    background: pink;
+    /* margin-bottom: 10px; */
+    
+    /* border-bottom: 2px solid #000; */
+   
+}
+img{
+    /* background: chartreuse; */
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+}
+p{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 30px auto;
+    /* border: 2px dashed #000; */
+    text-align: center;
+}
+
+footer{
+    /* border:  2px solid #000; */
+    display: block;
+    text-align: center;
+    padding: 10px;
+    /* width: 250px ; */
+}
+.button{
+    
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    padding: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:10px 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgba(190, 223, 2, 0.815);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.493), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+}
+.mr{
+    display: block;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+
+footer:hover{
+    font-size: large;
+    
+    background-color: rgba(250, 250, 250, 0.377);
+    
+}
+
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+    div{
+        left: 40vw;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+    div{
+        left: 25vw;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+    div{
+        left: 10vw;
+    }
+  }
+
+  @media (max-width: 28.74em) and (min-width: 25.75em)  {
+    html {
+      font-size: 55%;
+    }
+    div{
+        left: 3vw;
+    }
+  }
